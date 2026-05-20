@@ -1,0 +1,14 @@
+public class Kata
+{
+  public static string Smash(string[] words)
+  {
+    // Smash words
+    string result = "";
+    for (int i =0; i < words.Length;i++ )
+      {
+        result =result + " " +words[i];
+      }
+
+     return result.Trim();
+    }
+}
