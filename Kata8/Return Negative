@@ -1,0 +1,14 @@
+using System;
+
+public static class Kata
+{
+  public static int MakeNegative(int number)
+  {
+    // Code?
+    int negative=0;
+    if (number <0){
+    return number;}
+    else{
+     return negative - number;}
+  }
+}
