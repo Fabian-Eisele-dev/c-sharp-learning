@@ -1,0 +1,19 @@
+using System;  
+using System.Linq;
+
+
+public class Kata
+
+{
+  public int Min(int[] list)
+  {
+    int Min = list.Min();
+      return Min;
+  }
+  
+  public int Max(int[] list)
+  {
+        int Max = list.Max();
+          return Max;
+  }
+}
