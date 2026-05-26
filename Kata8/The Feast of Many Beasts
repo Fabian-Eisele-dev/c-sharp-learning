@@ -1,0 +1,12 @@
+public class Kata
+{
+    public static bool Feast(string beast, string dish)
+    {
+    char beastFirst = beast[0];
+    char beastLast = beast[beast.Length - 1];
+    
+    char dishFirst = dish[0];
+    char dishLast = dish[dish.Length - 1];
+        return (beastFirst == dishFirst) && (beastLast == dishLast);
+    }
+}
