@@ -1,0 +1,28 @@
+1
+public class Kata
+2
+{
+3
+  public static string Bmi(double weight, double height)
+4
+  {
+5
+    double BMI = weight / (height * height);
+6
+    if (BMI <= 18.5) return "Underweight";
+7
+  
+8
+    else if (BMI <= 25.0) return "Normal";
+9
+​
+10
+    else if (BMI <= 30.0) return "Overweight";
+11
+​
+12
+    else  return "Obese";
+13
+  }
+14
+}
