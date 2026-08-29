@@ -1,0 +1,17 @@
+namespace Solution
+{
+  class Kata
+    {
+      public static int binaryArrayToNumber(int[] BinaryArray)
+        {
+        
+        int solution = 0;
+        
+        for (int i=0; i< BinaryArray.Length; i++){
+          solution = (solution * 2) + BinaryArray[i];}
+        
+        
+        return solution; 
+        }
+    }
+  }
