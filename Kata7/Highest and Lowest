@@ -1,0 +1,18 @@
+In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
+
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+public static class Kata
+{
+  public static string HighAndLow(string numbers)
+  {
+    
+    List<int> MaxMin = numbers.Split(" ").Select(int.Parse).ToList();
+    MaxMin.Sort();
+    return $"{MaxMin[^1]} {MaxMin[0]}";
+  }
+}
