@@ -1,0 +1,9 @@
+using System;
+
+public class Kata
+{
+  public static string AreYouPlayingBanjo(string name)
+{
+    return char.ToUpper(name[0]) == 'R' ? name + " plays banjo" : name + " does not play banjo";
+}
+}
